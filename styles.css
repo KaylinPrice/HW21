@@ -1,0 +1,397 @@
+/* Define Global Default Css */
+*{
+    margin: 10;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    background-color: #f5f5dc;
+    background-image: url('https://kaylinprice.github.io/finalimages/color-burst.png');
+    background-repeat: no-repeat;
+    background-position: -5%;
+    height: auto;
+    max-width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 10vh;
+  }
+  /* Define Default Global Font Sizes */
+  
+  h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #363231;
+    padding-top: 7%;
+    
+  }
+  
+  h3 {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #363231;
+    padding-right: 1%;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 30px;
+  }
+  
+  h6 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20%;
+    line-height: 180%;
+    color: #363231;
+    
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #363231;
+    
+  }
+  
+  a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  
+  }
+  
+  /*Define Global Helper Styles */
+  
+  .center {
+    text-align: center;
+  }
+  
+  .margin-bottom_five {
+    margin-bottom: 5px;
+  }
+  
+  .link {
+    text-decoration: underline;
+  }
+  
+  .link:hover {
+    text-decoration: none;
+  }
+  
+  .margin-top_zero {
+    margin-top: 0;
+  }
+  .hero-container_sub-copy {
+    font-weight: 400;
+  }
+  
+  /* Define Navigation Styles */
+  
+  nav {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-end;
+    padding-right: 20px;
+    position: sticky;
+     top: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .nav-link {
+    display: flex;
+    padding: 20px;
+  }
+  
+  /* Define Hero Styles */
+  
+  .hero-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-left: 11%;
+  }
+  /* Define Card Styles */
+  
+  .card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto auto 60px auto;
+    max-width: 1000px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card {
+    font-family: 'Poppins', sans-serif;
+    text-align:end
+  }
+  
+  .card {
+    width: 40%;
+    margin: 20px; 
+  }
+  
+  .card a {
+    text-decoration: none !important;
+    color:#363231 
+  }
+
+  /* Define Footer Styles */
+  
+footer {
+      background-image: url('https://kaylinprice.github.io/finalimages/footerimage.png');
+      text-align:left;
+      font-family: 'Poppins', sans-serif;
+      padding: 40px;
+      color: #363231;
+  }
+  
+  .copyright {
+   font-size: 10px;
+   margin-top: 30px;
+   color:#363231
+  
+  }
+  .case-study-body{
+  background-color: #f5f5dc;
+  height: 100vh;
+  
+  }
+  
+  /* Define Portfolio */
+  
+  .portfolio-work{
+  flex-flow: row wrap;
+  justify-content: right;
+  max-width: 1250px;
+  }
+
+  .portfolio-work-2{
+    flex-flow: row wrap;
+    justify-content: right;
+    max-width: 1250px;
+    border: 3px solid black;
+    }
+  
+  .cards{
+  font-family: 'Poppins', sans-serif;
+  text-align:left;
+  }
+  .cards{
+    width: 40%;
+    margin: 20px;  
+  }
+  .cards a {
+    text-decoration: none !important;
+    color:#363231 
+  }
+  .button {
+    background-color: #D7EC5E; /* Green */
+    border: none;
+    color: #363231;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .buttons {
+    background-color: #f5f5dc; 
+    color: #363231; 
+    border: 2px solid #D7EC5E;
+  }
+  .button {border-radius: 12px;}
+
+
+.cat-thing {
+    margin-top: 5px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stray-cat-img{
+    border-radius: 0%;
+}
+
+.moodboard-text-straycat-img{
+  padding-left: 10%;
+  padding-top: 20%;
+}
+
+.moodboard-img{
+padding-left: 40%;
+}
+
+.portfolio-image-cropped-img{
+  padding: 5%;
+}
+
+.prototype-testing-text2-img{
+  padding-left: 10%;
+}
+
+.project-conclusion-text-img{
+  padding-left: 10%
+}
+
+.Straycat-Wireframes-img{
+  padding-left: 39%;
+  padding-bottom: 10%;
+}
+
+.grapevine{
+  margin-top: 5px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grapevine-cropped-img{
+  padding: 0%;
+}
+
+.research-text-img{
+  padding-left: 15%;
+}
+
+.grapevine-research-img{
+  padding-left: 40%;
+}
+
+.Grapevine-Wireframes-img{
+  padding-left: 40%;
+}
+
+.User-Testing-Grapevine-img{
+  padding-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.outline{
+   height: 2px;
+   width: 90%;
+   /* border: 1px solid black; */
+   background-color: #000000;
+   justify-self: flex-end;
+   margin-right: 25px;
+}
+.outline-wrapper{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.project-overview{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    font-family: 'poppins';
+    align-items: center;
+
+}
+.pj-overview-block{
+    height: 1000px;
+    width: 100vw;
+    font-family: 'poppins';
+    position: relative;
+    /* top: -80px; */
+    /* background-color: #ffffff; */
+}
+
+.pj-overview-content{
+    margin-left: 500px;
+    font-family: 'poppins';
+}
+
+.content-grid{
+    display: flex;
+    margin-right: 25px ;
+}
+.grid-block{
+    width: 25%;
+    /* border: 1px solid black; */
+    height: 200px;
+}
+
+.about-body{
+    background-color:#f5f5dc;
+    font-family: 'poppins';
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.about-container{
+height: 100vh;
+width: 100vw;
+background-color: #f5f5dc;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* background-color: #00ff88; */
+    height: 90vh;
+    /* border: 1px solid black; */
+}
+
+.about-img-wrapper{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.about-img{
+  position:absolute;
+top:-40%
+
+
+}
+.about-text{
+    /* background-color: #ff0000; */
+    height: 80%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    font-family: 'poppins';
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 100px;
+    bottom: 100px;
+}
